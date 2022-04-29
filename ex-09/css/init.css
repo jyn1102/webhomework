@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+.head,
+.nav,
+.context {
+    padding: 0 50px;
+}
+ 

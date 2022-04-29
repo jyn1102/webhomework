@@ -1,0 +1,86 @@
+.g-ex6_3 {
+  width: 950px;
+  height: 630px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  padding: 3px;
+}
+
+.m-block {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  border: solid 1px #e1e1e1;
+  background-color: #fff;
+}
+
+.m-block>img {
+  width: 300px;
+  height: 200px;
+}
+
+.m-block>.m-titl {
+  background-color: #fff;
+  width: 290px;
+  height: 20px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 12px;
+  margin: 5px 10px 0 10px;
+}
+
+.m-block>.m-info {
+  background-color: #fff;
+  width: 290px;
+  height: 20px;
+  text-align: left;
+  line-height: 20px;
+  font-size: 12px;
+  color: #f70b42;
+  margin: 5px 10px 0 10px;
+}
+
+.m-block>.m-pri {
+  background-color: #fff;
+  width: 290px;
+  height: 30px;
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f70b42;
+  margin: 5px 10px 0 10px;
+  display: flex;
+}
+
+.m-block>.m-info>.m-text1 {
+  color: #f70b42;
+}
+
+.m-block>.m-info>.m-text2 {
+  color: #b2adad;
+}
+
+.m-block>.m-pri>.m-text3 {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #b2adad;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.m-block>.m-pri>.m-text4 {
+  text-decoration: none;
+  font-size: 12px;
+  color: #b2adad;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.m-block>.m-pri>.m-text4>.m-text5 {
+  color: #f70b42;
+}

@@ -1,0 +1,289 @@
+header {
+    padding-top: 18px;
+    width: 990px;
+}
+
+header > .m-tl {
+    border-bottom: 5px solid #248ec9;
+    margin-right: 0px;
+}
+
+header > .m-tl > .ui-grid-3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header > .m-tl > .ui-grid-19 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header > .m-tl > .m-tab > span {
+    background: #248ec9;
+    color: #fff;
+    font-size: 18px;
+    padding: 4px 10px 2px;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    text-align: center;
+}
+
+header > .m-tl > .m-slt > span {
+    background: #fe6208;
+    color: #fff;
+    font-size: 22px;
+    padding: 0 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header > .m-tl > .m-btn {
+    margin-right: 0px;
+}
+
+header > .m-tl > .m-btn > .box {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+header > .m-tl > .m-btn > .box > img {
+    align-self: center;
+}
+
+header > .m-tl > .m-btn > .box > span {
+    color: #0322ba;
+    font-size: 18px;
+    padding: 0 4px;
+    text-align: center;
+}
+
+header > .m-info {
+    border: 2px solid #ccc;
+    border-top: 0;
+    margin-right: 0px;
+}
+
+header > .m-info > .m-line > span {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+header > .m-info > .m-line > .red {
+    color: red;
+    font-weight: bold;
+    margin-right: 20px;
+    word-spacing: 5px;
+}
+
+header > .m-info > .m-line > .bold {
+    color: black;
+    font-weight: bold;
+}
+
+header > .m-info > .tool {
+    background: #fffcdf;
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px 0 0 0;
+    padding: 5px 0 5px 0;
+    border-top: 2px solid #ccc;
+}
+
+header > .m-info > .tool > span {
+    font-size: 18px;
+    color: #0f32c0;
+    text-decoration: underline;
+    margin: 0 14px 0 4px;
+}
+
+section {
+    padding-top: 6px;
+    width: 990px;
+}
+
+section > .m-tl > div {
+    background: #cfdde9;
+    color: #57738a;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px;
+}
+
+section > .m-tl > .ui-grid-3 {
+    width: 97px;
+    border-left: 3px solid #fff;
+}
+
+section > .m-hd {
+    margin: 2px 0 0 0;
+    background: #f3f3f3;
+    border: 2px solid #ccc;
+    border-top: 0;
+}
+
+section > .m-hd > div {
+    margin-right: 4px;
+}
+
+section > .m-hd > .name {
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section > .m-hd > .name > img {
+    align-self: center;
+    margin-right: 5px;
+}
+
+section > .m-hd > .info {
+    margin-top: 8px;
+    text-align: right;
+    font-size: 16px;
+    color: #0322ba;
+    text-decoration: underline;
+}
+
+section > .m-list {
+    height: 62px;
+    box-sizing: border-box;
+}
+
+section > .m-list > div {
+    margin: 0px;
+    height: 100%;
+}
+
+section > .m-list > .time {
+    text-align: center;
+    border-right: 2px solid #88bed2;
+}
+
+section > .m-list > .time > span {
+    font-size: 18px;
+    display: block;
+}
+
+section > .m-list > .time > .bold {
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+section > .m-list > .info {
+    margin-left: 2px;
+    border-left: 2px solid #88bed2;
+    font-size: 18px;
+    font-weight: bold;
+    color: #07649c;
+    display: flex;
+}
+
+section > .m-list > .info > div {
+    width: 250px;
+    display: block;
+}
+
+section > .m-list > .info > div > .btn {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    background: #084c9a;
+    width: 90px;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+section > .m-list > .info > .udl {
+    text-decoration: underline;
+}
+
+section > .m-list > .info > img {
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+section > .m-list > .ui-grid-3 {
+    width: 99px;
+    border-left: 2px solid #ccc;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+section > .m-list > .ui-grid-3 > span {
+    font-size: 16px;
+}
+
+section > .m-list > .price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section > .m-list > .price > span {
+    font-size: 20px;
+}
+
+section > .hd {
+    background: #f3f3f3;
+    border: 2px solid #ccc;
+    height: 67px;
+    margin: 0px;
+}
+
+section > .hd > div {
+    margin-right: 5px;
+}
+
+section > .hd > .wait {
+    height: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section > .hd > .wait > span {
+    font-size: 18px;
+    align-self: center;
+}
+
+section > .hd > .name {
+    margin-top: 16px;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+section > .hd > .name > img {
+    align-self: center;
+    margin-right: 5px;
+}
+
+section > .hd > .loc {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+section > .hd > .info {
+    margin-bottom: 0px;
+}
+
+section > .hd > .info > div {
+    text-align: right;
+    margin: 7px 0 0 0;
+    font-size: 16px;
+    color: #0322ba;
+}
+
+section > .hd > .info > .chi > span {
+    text-decoration: underline;
+}
+
+section > .hd > .info > .jap > span {
+    text-decoration: underline;
+}

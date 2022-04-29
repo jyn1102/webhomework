@@ -1,0 +1,159 @@
+body {
+	width: 290px;
+	text-align: center;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.lists1 {
+	display: inline-block;
+	width: 60px;
+}
+
+.lists1>p {
+	color: #f40;
+	font-weight: bold;
+}
+
+.spacing {
+	background-color: #ffe4dd;
+	color: #f40;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px;
+}
+
+.selection {
+	display: inline-block;
+	width: 50px;
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.selection2 {
+	display: inline-block;
+	width: 120px;
+	margin: 0;
+	padding: 5px 0 0 0;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.selection3 {
+	display: inline-block;
+	width: 60px;
+	margin: 10px 0 0 0;
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.lists2 {
+	display: inline-block;
+	width: 22%;
+	height: 65px;
+	color: #f40;
+	margin: -10px;
+	padding: 0;
+}
+
+#img-1 {
+	width: 30px;
+	height: 30px;
+	display: block;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+}
+
+.bordered {
+	width: 89%;
+	height: 200px;
+	background-color: #fff;
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #f40;
+	margin: 65px 20px 13px 18px;
+	padding: 0;
+}
+
+.bordered2 {
+	border-width: 1px 1px 0 1px;
+	border-style: solid;
+	border-color: #f40;
+	margin: 0 -5px 0 0;
+	padding: 0;
+}
+
+.bordered3 {
+	border-width: 1px 1px 1px 0;
+	border-style: solid;
+	border-color: #aba9a9 #aba9a9 #f40 #aba9a9;
+	margin: 0 -5px 0 0;
+	padding: 0;
+}
+
+.highlight {
+	color: #f40;
+}
+
+.lists4 {
+	text-align: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #aba9a9;
+	margin-left: 20px;
+	width: 160px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.lists5 {
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.lists6 {
+	color: #fff;
+	background-color: #f40;
+	border: 1px solid #f40;
+	border-radius: 3px;
+	font-size: 12px;
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding: 3px;
+	text-align: left;
+}
+
+.li6 {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#triangle-right {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 5px solid #f40;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+}

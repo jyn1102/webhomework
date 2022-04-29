@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.m-news {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.m-news::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.m-news .photo {
+  float: left;
+  width: 500px;
+}
+
+.m-news .photo img {
+  max-width: 100%;
+}
+
+.m-news .text {
+  float: right;
+  padding-left: 40px;
+  width: 500px;
+}
+
+.m-news .text>h1 {
+  position: relative;
+  margin-top: 20px;
+  padding: 0 0 20px 0;
+}
+
+.m-news .text>p {
+  line-height: 2em;
+  margin-top: 30px;
+}
+
+.m-news .text>h1::after {
+  content: "";
+  background-color: #0068b1;
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  height: 4px;
+  width: 50px;
+}
+
+.m-news .text button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  position: relative;
+  background-color: #0068b1;
+  border-radius: 5px;
+  border: none;
+  text-align: left;
+  text-indent: 10%;
+  color: #fff;
+}
+
+.m-news .text button::after {
+  content: "＞";
+  position: absolute;
+  right: 10px;
+  color: #fff;
+}
+
+.m-blog {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.m-blog .title {
+  position: relative;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.m-blog .title .bold {
+  display: inline;
+  font-weight: bold;
+  color: #0068b1;
+}
+
+.m-blog .title h2 {
+  margin-left: 20px;
+  display: inline;
+}
+
+.m-blog .title h2::before {
+  margin-right: 20px;
+  content: "";
+  display: inline-block;
+  background-color: #0068b1;
+  height: 18px;
+  width: 5px;
+}
+
+.m-blog .title button {
+  content: "XXXXX";
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  bottom: 25px;
+  right: 0px;
+  background-color: #0068b1;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  text-indent: 10%;
+  color: #fff;
+}
+
+.m-blog .title button::after {
+  content: "＞";
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: #fff;
+}
+
+.m-blog .list ul {
+  padding: 0;
+}
+
+.m-blog .list ul li {
+  padding: 30px 0;
+  border-bottom: 1px solid #dbdbdb;
+  list-style: none;
+}
+
+.m-blog .list ul li span {
+  display: inline-block;
+  width: 110px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 40px 0 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: small;
+}
+
+.m-blog .list ul li .tax {
+  background-color: #009ee2;
+  border-color: #009ee2;
+}
+
+.m-blog .list ul li .tax-accounting {
+  background-color: #5aad73;
+}
+
+.m-blog .list ul li a {
+  text-decoration: underline;
+}
+
+.m-contact {
+  background-image: url(../img/background.jpg);
+  padding: 60px 0 30px 0;
+}
+
+.m-contact .content {
+  width: 1135px;
+  margin: 0 auto;
+}
+
+.m-contact .content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.m-contact .content .tel {
+  width: 530px;
+}
+
+.m-contact .content .web {
+  width: 530px;
+}
+
+.m-contact .content .box {
+  text-align: center;
+  height: 320px;
+  background-color: #fff;
+  border: 2px solid #e2e2e2;
+}
+
+.m-contact .content .tel {
+  float: left;
+}
+
+.m-contact .content .web {
+  float: left;
+  margin-left: 75px;
+}
+
+.m-contact .content h2 {
+  margin: 0 0 25px 0;
+  position: relative;
+  padding-left: 20px;
+  color: #004897;
+}
+
+.m-contact .content h2::before {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  content: "";
+  display: inline-block;
+  background-color: #004897;
+  height: 25px;
+  width: 7px;
+}
+
+.m-contact .content .tel .box {
+  text-align: center;
+}
+
+.m-contact .content .tel .box .text {
+  margin-top: 30px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.m-contact .content .tel .box .number {
+  font-size: 3.0em;
+  font-weight: bold;
+  color: #0068b1;
+}
+
+.m-contact .content .tel .box .main {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.m-contact .content .tel .box .main::after {
+  content: "";
+  background-color: #dbdbdd;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: block;
+  height: 1px;
+  width: 400px;
+}
+
+.m-contact .content .tel .box .time {
+  margin-top: 15px;
+  color: #0068b1;
+  font-size: 1.5em;
+}
+
+.m-contact .content .tel .box span {
+  display: block;
+}
+
+
+.m-contact .content .web .box a {
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 430px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0068b1;
+  border-radius: 5px;
+  box-shadow: 1px 1px 0px 1px #000;
+}
+
+.m-contact .content .web .box a img {
+  margin-right: 10px;
+}
+
+.m-contact .content .web .box a::after {
+  content: "＞";
+  font-size: x-large;
+  position: absolute;
+  right: 10px;
+  color: #fff;
+}
+
+.m-contact .content .web .box span {
+  margin: 0 auto;
+  font-size: large;
+  font-size: 1.5em;
+}
